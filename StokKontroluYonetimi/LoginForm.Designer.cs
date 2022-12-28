@@ -58,7 +58,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(350, 98);
+            this.panel1.Size = new System.Drawing.Size(350, 92);
             this.panel1.TabIndex = 0;
             // 
             // pictureBoxKapat
@@ -79,18 +79,18 @@
             this.label4.BackColor = System.Drawing.Color.Maroon;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(84, 38);
+            this.label4.Location = new System.Drawing.Point(84, 33);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(252, 23);
+            this.label4.Size = new System.Drawing.Size(223, 23);
             this.label4.TabIndex = 11;
-            this.label4.Text = "ESEN YÖNETİM SİSTEMLERİ";
+            this.label4.Text = "STOK YÖNETİM SİSTEMİ";
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Maroon;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 7);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(65, 75);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
