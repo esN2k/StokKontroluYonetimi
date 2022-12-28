@@ -17,9 +17,26 @@ namespace StokKontroluYonetimi
             InitializeComponent();
         }
 
-        private void LoginForm_Load(object sender, EventArgs e)
+        private void checkBoxSifre_CheckedChanged(object sender, EventArgs e)
         {
+            if (checkBoxSifre.Checked == false)
+                txtSifre.UseSystemPasswordChar = true;
+            else
+                txtSifre.UseSystemPasswordChar = false;
+        }
 
+        private void lblTemizle_Click(object sender, EventArgs e)
+        {
+            txtIsim.Clear();
+            txtSifre.Clear();
+        }
+
+        private void pictureBoxKapat_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Programı kapatmak istediğinize emin misiniz?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }
