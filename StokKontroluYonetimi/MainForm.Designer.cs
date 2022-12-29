@@ -30,27 +30,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panelMain = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.customerButton5 = new StokKontroluYonetimi.CustomerButton();
             this.customerButton4 = new StokKontroluYonetimi.CustomerButton();
             this.customerButton3 = new StokKontroluYonetimi.CustomerButton();
             this.customerButton2 = new StokKontroluYonetimi.CustomerButton();
             this.customerButton1 = new StokKontroluYonetimi.CustomerButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelMain = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
-            this.panelMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton1)).BeginInit();
+            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,81 +75,15 @@
             this.panel1.Size = new System.Drawing.Size(982, 87);
             this.panel1.TabIndex = 0;
             // 
-            // label3
+            // label7
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Maroon;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(16, 9);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 37);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "esN2k";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Maroon;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(16, 46);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 19);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "STOK YÖNETİM SİSTEMi";
-            // 
-            // panelMain
-            // 
-            this.panelMain.Controls.Add(this.flowLayoutPanel1);
-            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 87);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(982, 516);
-            this.panelMain.TabIndex = 2;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Maroon;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 494);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(982, 22);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(218, 57);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 21);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Ürünler";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(340, 57);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 21);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Müşteriler";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(485, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 21);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "Kategoriler";
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(785, 57);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 21);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "Siparişler";
             // 
             // label6
             // 
@@ -161,15 +95,35 @@
             this.label6.TabIndex = 22;
             this.label6.Text = "Kullanıcılar";
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(785, 57);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 21);
-            this.label7.TabIndex = 23;
-            this.label7.Text = "Siparişler";
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(485, 57);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 21);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "Kategoriler";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(340, 57);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(89, 21);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Müşteriler";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(218, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 21);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Ürünler";
             // 
             // customerButton5
             // 
@@ -231,6 +185,53 @@
             this.customerButton1.TabIndex = 1;
             this.customerButton1.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Maroon;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(16, 9);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(105, 37);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "esN2k";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Maroon;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(16, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(192, 19);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "STOK YÖNETİM SİSTEMi";
+            // 
+            // panelMain
+            // 
+            this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(224)))), ((int)(((byte)(227)))));
+            this.panelMain.Controls.Add(this.flowLayoutPanel1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 87);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(982, 516);
+            this.panelMain.TabIndex = 2;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Maroon;
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 494);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(982, 22);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -245,12 +246,12 @@
             this.Text = "MainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panelMain.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.customerButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerButton1)).EndInit();
+            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
